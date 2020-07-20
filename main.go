@@ -125,7 +125,7 @@ func main() {
 		case 200:
 			logrus.Debug("Vault is initialized and unsealed.")
 		case 429:
-			logrus.Info("Vault is unsealed and in standby mode.")
+			logrus.Debug("Vault is unsealed and in standby mode.")
 		case 501:
 			logrus.Info("Vault is not initialized.")
 			logrus.Info("Initializing...")
